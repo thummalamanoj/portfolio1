@@ -15,17 +15,17 @@ async function main() {
   // Seed Profile
   await prisma.profile.create({
     data: {
-      name: 'Alex Johnson',
+      name: 'Thummala Manoj',
       title: 'Full Stack Developer',
       bio: 'Passionate full-stack developer with 5+ years of experience building modern web applications. I specialize in React, Node.js, and cloud technologies. I love turning complex problems into simple, beautiful, and intuitive solutions. When I\'m not coding, you\'ll find me exploring new technologies, contributing to open-source projects, or sharing knowledge through technical writing.',
       avatarUrl: '',
-      location: 'San Francisco, CA',
-      email: 'alex@example.com',
-      phone: '+1 (555) 123-4567',
+      location: 'Banglore, KA',
+      email: 'thummalamanoj94@gmail.com',
+      phone: '+91 7780641182',
       website: 'https://alexjohnson.dev',
-      github: 'https://github.com/alexjohnson',
-      linkedin: 'https://linkedin.com/in/alexjohnson',
-      twitter: 'https://twitter.com/alexjohnson',
+      github: 'https://github.com/thummalamanoj',
+      linkedin: 'https://linkedin.com/in/thummalamanoj',
+      twitter: 'https://twitter.com/thummalamanoj',
       resumeUrl: '',
     },
   });
